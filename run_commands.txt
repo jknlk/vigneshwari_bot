@@ -1,0 +1,34 @@
+# Commands to Run E-Commerce AI Tool in Visual Studio Code
+
+## Quick Start Commands:
+
+# 1. Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate    # On macOS/Linux
+# OR
+venv\Scripts\activate       # On Windows
+
+# 2. Install required packages
+pip install streamlit pandas plotly google-genai openpyxl numpy
+
+# 3. Set your Gemini API key (get it from https://aistudio.google.com/apikey)
+export GEMINI_API_KEY="your_api_key_here"    # On macOS/Linux
+# OR
+set GEMINI_API_KEY=your_api_key_here         # On Windows
+
+# 4. Load your Excel data into the database
+python load_attached_data.py
+
+# 5. Run the Streamlit application
+streamlit run app.py --server.port 5000
+
+# 6. Open browser to: http://localhost:5000
+
+## VS Code Terminal Setup:
+# 1. Open VS Code in your project folder
+# 2. Open terminal (Ctrl + ` or View > Terminal)
+# 3. Select Python interpreter (Ctrl+Shift+P > "Python: Select Interpreter" > Choose venv)
+# 4. Run the commands above in the VS Code terminal
+
+## Alternative one-line setup:
+python -m venv venv && source venv/bin/activate && pip install streamlit pandas plotly google-genai openpyxl numpy && python load_attached_data.py && streamlit run app.py --server.port 5000
