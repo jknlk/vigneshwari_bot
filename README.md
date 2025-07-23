@@ -1,3 +1,5 @@
+HEAD
+
 # E-Commerce AI Data Analysis Tool
 
 An AI-powered data analysis platform that converts natural language questions into SQL queries and provides business insights with visualizations.
@@ -5,7 +7,7 @@ An AI-powered data analysis platform that converts natural language questions in
 ## Features
 
 - 🤖 Natural language to SQL query conversion using Google Gemini AI
-- 📊 Automatic chart generation and downloadable visualizations  
+- 📊 Automatic chart generation and downloadable visualizations
 - 💡 AI-generated business insights and recommendations
 - 🗄️ SQLite database with your real e-commerce data
 - 📈 Support for ad sales, total sales, and product eligibility analysis
@@ -13,11 +15,13 @@ An AI-powered data analysis platform that converts natural language questions in
 ## Setup Instructions for Visual Studio Code
 
 ### Prerequisites
+
 - Python 3.11 or higher
 - Visual Studio Code
 - Git (optional)
 
 ### 1. Clone or Download the Project
+
 ```bash
 # If using Git
 git clone <your-repo-url>
@@ -27,6 +31,7 @@ cd <project-folder>
 ```
 
 ### 2. Create Virtual Environment
+
 ```bash
 # Create virtual environment
 python -m venv venv
@@ -39,13 +44,16 @@ source venv/bin/activate
 ```
 
 ### 3. Install Dependencies
+
 ```bash
 # Install required packages
 pip install streamlit pandas plotly google-genai openpyxl numpy
 ```
 
 ### 4. Set Up Environment Variables
+
 Create a `.env` file in the project root:
+
 ```bash
 # Create .env file
 echo "GEMINI_API_KEY=your_api_key_here" > .env
@@ -54,18 +62,21 @@ echo "GEMINI_API_KEY=your_api_key_here" > .env
 Get your free Gemini API key from: https://aistudio.google.com/apikey
 
 ### 5. Load Your Data
+
 ```bash
 # Load the attached Excel files into database
 python load_attached_data.py
 ```
 
 ### 6. Run the Application
+
 ```bash
 # Start the Streamlit app
 streamlit run app.py --server.port 5000
 ```
 
 ### 7. Access the Application
+
 Open your browser and go to: `http://localhost:5000`
 
 ## Usage
@@ -80,6 +91,7 @@ Open your browser and go to: `http://localhost:5000`
 5. **Download**: Save charts as HTML files
 
 ## Project Structure
+
 ```
 ├── app.py                     # Main Streamlit application
 ├── services/                  # Core business logic
@@ -127,10 +139,15 @@ streamlit run app.py --server.port 5000
 ## Data Schema
 
 Your loaded data includes:
+
 - **ad_sales_metrics**: 3,696 records with ad performance data
-- **total_sales_metrics**: 702 records with sales performance  
+- **total_sales_metrics**: 702 records with sales performance
 - **eligibility_table**: 4,381 records with product eligibility info
 
 ## Support
 
-For issues or questions, check the application logs in your terminal or VS Code output panel.
+# For issues or questions, check the application logs in your terminal or VS Code output panel.
+
+# vigneshwarii
+
+35ae3ef41e55eac18f00175bec2b13f82420b00a
