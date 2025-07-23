@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 HEAD
 
 # E-Commerce AI Data Analysis Tool
