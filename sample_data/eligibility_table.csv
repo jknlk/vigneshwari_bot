@@ -1,0 +1,101 @@
+product_id,product_name,category,brand,eligible_for_ads,eligibility_reason
+P001,Product 1,Electronics,BrandD,True,Approved
+P002,Product 2,Food,BrandB,True,Approved
+P003,Product 3,Home & Garden,BrandD,True,Approved
+P004,Product 4,Beauty,BrandF,True,Approved
+P005,Product 5,Sports,BrandA,True,Approved
+P006,Product 6,Beauty,BrandG,True,Approved
+P007,Product 7,Books,BrandG,True,Approved
+P008,Product 8,Sports,BrandH,False,Restricted Category
+P009,Product 9,Sports,BrandF,True,Approved
+P010,Product 10,Clothing,BrandB,True,Approved
+P011,Product 11,Home & Garden,BrandE,False,Policy Violation
+P012,Product 12,Home & Garden,BrandF,True,Approved
+P013,Product 13,Books,BrandD,True,Approved
+P014,Product 14,Electronics,BrandC,True,Approved
+P015,Product 15,Sports,BrandD,True,Approved
+P016,Product 16,Food,BrandE,False,Low Quality Score
+P017,Product 17,Home & Garden,BrandG,True,Approved
+P018,Product 18,Toys,BrandH,True,Approved
+P019,Product 19,Toys,BrandC,True,Approved
+P020,Product 20,Sports,BrandD,False,Pending Review
+P021,Product 21,Food,BrandB,True,Approved
+P022,Product 22,Electronics,BrandD,True,Approved
+P023,Product 23,Food,BrandE,True,Approved
+P024,Product 24,Food,BrandC,True,Approved
+P025,Product 25,Toys,BrandA,True,Approved
+P026,Product 26,Clothing,BrandA,True,Approved
+P027,Product 27,Home & Garden,BrandE,True,Approved
+P028,Product 28,Food,BrandH,True,Approved
+P029,Product 29,Home & Garden,BrandA,True,Approved
+P030,Product 30,Toys,BrandA,False,Restricted Category
+P031,Product 31,Sports,BrandC,True,Approved
+P032,Product 32,Sports,BrandG,True,Approved
+P033,Product 33,Books,BrandA,True,Approved
+P034,Product 34,Food,BrandC,False,Low Quality Score
+P035,Product 35,Sports,BrandF,True,Approved
+P036,Product 36,Books,BrandH,False,Pending Review
+P037,Product 37,Beauty,BrandG,False,Policy Violation
+P038,Product 38,Books,BrandF,True,Approved
+P039,Product 39,Beauty,BrandA,True,Approved
+P040,Product 40,Books,BrandF,True,Approved
+P041,Product 41,Beauty,BrandD,True,Approved
+P042,Product 42,Books,BrandB,True,Approved
+P043,Product 43,Electronics,BrandG,True,Approved
+P044,Product 44,Electronics,BrandH,True,Approved
+P045,Product 45,Toys,BrandF,True,Approved
+P046,Product 46,Sports,BrandF,True,Approved
+P047,Product 47,Sports,BrandA,True,Approved
+P048,Product 48,Beauty,BrandA,False,Pending Review
+P049,Product 49,Clothing,BrandA,False,Low Quality Score
+P050,Product 50,Sports,BrandC,True,Approved
+P051,Product 51,Electronics,BrandA,True,Approved
+P052,Product 52,Books,BrandE,True,Approved
+P053,Product 53,Sports,BrandE,True,Approved
+P054,Product 54,Sports,BrandB,True,Approved
+P055,Product 55,Toys,BrandG,True,Approved
+P056,Product 56,Beauty,BrandA,True,Approved
+P057,Product 57,Books,BrandA,True,Approved
+P058,Product 58,Sports,BrandE,True,Approved
+P059,Product 59,Electronics,BrandF,True,Approved
+P060,Product 60,Home & Garden,BrandC,True,Approved
+P061,Product 61,Beauty,BrandC,True,Approved
+P062,Product 62,Clothing,BrandE,True,Approved
+P063,Product 63,Toys,BrandG,True,Approved
+P064,Product 64,Toys,BrandB,True,Approved
+P065,Product 65,Electronics,BrandC,True,Approved
+P066,Product 66,Beauty,BrandA,True,Approved
+P067,Product 67,Home & Garden,BrandB,True,Approved
+P068,Product 68,Books,BrandE,True,Approved
+P069,Product 69,Clothing,BrandB,True,Approved
+P070,Product 70,Food,BrandH,False,Policy Violation
+P071,Product 71,Beauty,BrandA,True,Approved
+P072,Product 72,Home & Garden,BrandE,True,Approved
+P073,Product 73,Clothing,BrandC,False,Low Quality Score
+P074,Product 74,Home & Garden,BrandH,True,Approved
+P075,Product 75,Beauty,BrandD,True,Approved
+P076,Product 76,Beauty,BrandA,True,Approved
+P077,Product 77,Electronics,BrandG,False,Low Quality Score
+P078,Product 78,Home & Garden,BrandG,True,Approved
+P079,Product 79,Beauty,BrandB,True,Approved
+P080,Product 80,Sports,BrandB,True,Approved
+P081,Product 81,Electronics,BrandC,True,Approved
+P082,Product 82,Toys,BrandF,False,Policy Violation
+P083,Product 83,Clothing,BrandG,True,Approved
+P084,Product 84,Clothing,BrandA,False,Pending Review
+P085,Product 85,Clothing,BrandA,True,Approved
+P086,Product 86,Books,BrandF,True,Approved
+P087,Product 87,Electronics,BrandE,False,Policy Violation
+P088,Product 88,Toys,BrandG,True,Approved
+P089,Product 89,Clothing,BrandF,True,Approved
+P090,Product 90,Food,BrandC,True,Approved
+P091,Product 91,Electronics,BrandH,False,Policy Violation
+P092,Product 92,Home & Garden,BrandD,True,Approved
+P093,Product 93,Books,BrandB,True,Approved
+P094,Product 94,Home & Garden,BrandE,True,Approved
+P095,Product 95,Sports,BrandC,False,Low Quality Score
+P096,Product 96,Toys,BrandH,True,Approved
+P097,Product 97,Toys,BrandC,True,Approved
+P098,Product 98,Sports,BrandF,False,Low Quality Score
+P099,Product 99,Electronics,BrandB,False,Restricted Category
+P100,Product 100,Books,BrandG,True,Approved
