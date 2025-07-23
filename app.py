@@ -1,6 +1,15 @@
 import streamlit as st
 import pandas as pd
 import os
+import google.generativeai as genai
+
+
+
+
+
+
+from dotenv import load_dotenv
+load_dotenv()
 from services.database_service import DatabaseService
 from services.ai_service import AIService
 from services.visualization_service import VisualizationService
@@ -289,3 +298,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
