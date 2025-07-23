@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HEAD
 
 # E-Commerce AI Data Analysis Tool
@@ -151,3 +152,6 @@ Your loaded data includes:
 # vigneshwarii
 
 35ae3ef41e55eac18f00175bec2b13f82420b00a
+=======
+# Ecommerce_bot
+>>>>>>> 090b1204f6c0a24988a84f318bd9b7ec18638d8b
